@@ -10,8 +10,11 @@ Gytis Dudas<sup>1</sup>
 The input for this script is a tab-delimited text file that contains the names of the authors and their affiliations, e.g.:
 
 A. Johnson  University of Wherever, Middle of Nowhere, Antarctica; University of That Other Place, No Place in Particular, Antarctica
+
 B. Johnson  Department of No One's Business, Same Place, Same Continent
+
 C. Johnson  Institute of Stood Far Back When Gravitas Was Handed Out, Culture Sphere, Milky Way; Gravitas, What Gravitas? Consortium, Culture Sphere, Milky Way
+
 
 If an author has more than one affiliation each should be separated by a semicolon (;).
 
