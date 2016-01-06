@@ -9,9 +9,9 @@ Gytis Dudas<sup>1</sup>
 
 The input for this script is a tab-delimited text file that contains the names of the authors and their affiliations, e.g.:
 
-A. Johnson<tab>University of Wherever, Middle of Nowhere, Antarctica; University of That Other Place, No Place in Particular, Antarctica
-B. Johnson<tab>Department of No One's Business, Same Place, Same Continent
-C. Johnson<tab>Institute of Stood Far Back When Gravitas Was Handed Out, Culture Sphere, Milky Way; Gravitas, What Gravitas? Consortium, Culture Sphere, Milky Way
+A. Johnson  University of Wherever, Middle of Nowhere, Antarctica; University of That Other Place, No Place in Particular, Antarctica
+B. Johnson  Department of No One's Business, Same Place, Same Continent
+C. Johnson  Institute of Stood Far Back When Gravitas Was Handed Out, Culture Sphere, Milky Way; Gravitas, What Gravitas? Consortium, Culture Sphere, Milky Way
 
 If an author has more than one affiliation each should be separated by a semicolon (;).
 
@@ -27,19 +27,26 @@ If the seed is not specified or is an invalid (i.e. non-integer) value it will d
 
 The output will look something like this:
 
-``python random_author_order.py -i example_list.txt -s 2
+``python random_author_order.py -i example_list.txt -s 2``
 
 Author file is: example_list.txt
+
 Seed: 2
 
 C. Johnson	1,2
+
 A. Johnson	3,4
+
 B. Johnson	5
 
 1 Institute of Stood Far Back When Gravitas Was Handed Out, Culture Sphere, Milky Way, 
+
 2 Gravitas, What Gravitas? Consortium, Culture Sphere, Milky Way, 
+
 3 University of Wherever, Middle of Nowhere, Antarctica, 
+
 4 University of That Other Place, No Place in Particular, Antarctica, 
-5 Department of No One's Business, Same Place, Same Continent``
+
+5 Department of No One's Business, Same Place, Same Continent
 
 The file and the seed used will be visible, followed by a random order of the authors with their affiliations numbered and displayed further down.
